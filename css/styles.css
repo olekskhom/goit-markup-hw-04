@@ -27,7 +27,7 @@ p {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .list {
@@ -285,6 +285,8 @@ body {
 
 .team-item {
   background-color: var(--white-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-img {
   /* margin-bottom: 32px; */
@@ -318,7 +320,8 @@ body {
 }
 /*  */
 
-.team-social-link {
+.team-social-link,
+.footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,6 +370,35 @@ body {
   width: 264px;
 }
 
+/*  */
+.footer-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
+.footer-social-block {
+  width: 208px;
+}
+
+.footer-block {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
 /* ===== portfolio ===== */
 
 .portfolio {
@@ -401,6 +433,9 @@ body {
   color: var(--white-color);
   background-color: var(--subaccent-color);
   border: 1px solid transparent;
+  /*  */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-list {
@@ -408,6 +443,12 @@ body {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img {
