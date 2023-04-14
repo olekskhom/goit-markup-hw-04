@@ -27,7 +27,7 @@ p {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .list {
@@ -336,7 +336,7 @@ body {
 /* ===== portfolio ===== */
 
 .portfolio {
-  padding: 96px 120px;
+  padding: 96px 0;
 }
 
 .portfolio-menu {
