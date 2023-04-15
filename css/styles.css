@@ -60,6 +60,8 @@ body {
 /* ===== header ===== */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -146,6 +148,8 @@ body {
     url(../images/hero/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin-left: auto;
   margin-right: auto;
   /*  */
@@ -208,6 +212,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
+  border-radius: 4px;
 }
 
 .advantages-list {
@@ -338,6 +343,10 @@ body {
   height: 40px;
   background-color: var(--accent-color);
   border-radius: 50%;
+}
+
+.team-item {
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-social-link:hover,
